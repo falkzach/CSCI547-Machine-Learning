@@ -1,0 +1,23 @@
+\title{
+	CSCI547 Machine Learning\\
+	Project Idea\\
+}
+\author{
+	Zachary Falkner\\
+	Department of Computer Science\\
+	University of Montana\\
+}
+\date{\today}
+\documentclass[12pt]{article}
+
+\usepackage{enumitem, listings}
+
+\begin{document}
+	\maketitle
+	
+	\begin{flushleft}
+		Climbing grades in rock climbing attempt to assign a simple numerical to a rock climb that has dozens of variables. Many of these variables are nearly impossible to measure and so applying these grades simply comes down to experience and comparison of difficulty of other climbs. But with a sufficient dataset, could a computer model create and grade climbing problems? A Moonboard \footnote{https://www.moonboard.com/} is a simple 40* wall. What is unique about this wall is that every Moonboard has the same configuration of holds and there is a                   phone application with a database of 22,718\footnote{as of 2018/02/09, https://www.moonboard.com/} boulder problems. Readily available on github is a collated collection fo 13,000 of these\footnote{https://github.com/ahou8288/moon-board-climbing} In the from of both text strings and images
+		. I plan to apply deep learning algorithms using TensorFlow\footnote{https://www.tensorflow.org/}. Using ahou8288's dataset I hope to be able to both generate climbs of a specified difficulty, and assign a reasonable grade to a previously unseen problem.
+
+	\end{flushleft}
+\end{document}

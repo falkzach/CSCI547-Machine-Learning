@@ -1,0 +1,36 @@
+\title{
+	CSCI547 Machine Learning\\
+	Project Proposal\\
+}
+\author{
+	Zachary Falkner\\
+	Department of Computer Science\\
+	University of Montana\\
+}
+\date{\today}
+\documentclass[12pt]{article}
+
+\usepackage{enumitem, listings}
+
+\begin{document}
+	\maketitle
+	
+	\clearpage
+	
+	\begin{flushleft}
+		Climbing grades are an attempt to quantify and attribute "simple" numerical value to a rock climb with dozens of variables, many of which are difficult, nay impossible to measure. As a result, there is hardly an objective system for determining these grades and their application comes down to personal experience, comparison to other existing problems, and community consensus. This subjective system makes things difficult, especially with variation across different styles of climbing. While we cannot hope to produce a universal solution to this problem, or produce a 'better' grading scheme to add to the clutter of existing systems, within limited scope it might be possible for a deep learning algorithm to grade climbs if we lived in a universe with a finite set of movements.\\
+
+		\vspace{0.25cm}
+
+		A Moonboard \footnote{https://www.moonboard.com/} is a simple 40* wall. What is unique about this wall is that every Moonboard has the same configuration of holds and there is a phone application with a database of 22,718\footnote{as of 2018/02/09, https://www.moonboard.com/} boulder problems. Previously readily available on github was a collated collection fo 13,000 of these\footnote{https://github.com/ahou8288/moon-board-climbing} In the from of both text strings and images. While the repositorie's author has done some foundational work exploring the possability of this with I intend to focus on original work starting with a basic neural network. I am currently exploring other avenues of acquiring the data as he seems to have removed it for some reason. \footnote{I am rather concerned about data acquisition and have some feelers out there trying to get at the dataset...}\\
+
+		\vspace{0.25cm}
+
+		In my work I intend to leverage neural networks to explore the grading of problems. Treating each hold as a feature (defined by a row and column location) deep learning techniques should reasonably be able to determine a grade for a provided climb based in its similarities to other existing climbs. There are two directions that I hope to take this work. First, to provide the model with a new climb, and have it assign a grade. And second, to ask the model for a climb of a certain grade, and have it produce a sequence of movements that it believes will fall within the grade. While I do not beleive that the model accuracy will be anything particularly high \footnote{some Stanford students accomplished ~35\%}, it could be said that a climbers ability to quantify the same thing is not necessarily fantastic and it is an interesting problem nonetheless.
+
+		\vspace{0.5cm}
+
+		
+
+	\end{flushleft}
+\end{document}

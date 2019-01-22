@@ -1,0 +1,13 @@
+algorithm,target,metric,score,parameters,accuracy
+tf dnn classifier,Heroin,loss,9.069879531860352,"{'hidden_units': [13, 26, 13], 'learning_rate': 0.0001, 'dropout': 0.2, 'epochs': 5000}",0.030497591942548752
+tf dnn classifier,Heroin,loss,1.8793838024139404,"{'hidden_units': [13, 26, 13], 'learning_rate': 0.001, 'dropout': 0.2, 'epochs': 5000}",0.030497591942548752
+tf dnn classifier,Heroin,loss,0.6088760495185852,"{'hidden_units': [13, 26, 13], 'learning_rate': 0.01, 'dropout': 0.2, 'epochs': 5000}",0.030497591942548752
+tf dnn classifier,Heroin,loss,0.5844347476959229,"{'hidden_units': [13, 26, 13], 'learning_rate': 0.1, 'dropout': 0.2, 'epochs': 5000}",0.030497591942548752
+tf dnn classifier,Heroin,loss,7.618290424346924,"{'hidden_units': [13, 26, 13], 'learning_rate': 0.0001, 'dropout': 0.2, 'epochs': 10000}",0.030497591942548752
+tf dnn classifier,Heroin,loss,1.2511637210845947,"{'hidden_units': [13, 26, 13], 'learning_rate': 0.001, 'dropout': 0.2, 'epochs': 10000}",0.030497591942548752
+tf dnn classifier,Heroin,loss,0.6019797921180725,"{'hidden_units': [13, 26, 13], 'learning_rate': 0.01, 'dropout': 0.2, 'epochs': 10000}",0.030497591942548752
+tf dnn classifier,Heroin,loss,0.5791858434677124,"{'hidden_units': [13, 26, 13], 'learning_rate': 0.1, 'dropout': 0.2, 'epochs': 10000}",0.030497591942548752
+tf dnn classifier,Heroin,loss,8.591951370239258,"{'hidden_units': [13, 26, 13], 'learning_rate': 0.0001, 'dropout': 0.2, 'epochs': 25000}",0.030497591942548752
+tf dnn classifier,Heroin,loss,0.8100150227546692,"{'hidden_units': [13, 26, 13], 'learning_rate': 0.001, 'dropout': 0.2, 'epochs': 25000}",0.030497591942548752
+tf dnn classifier,Heroin,loss,0.5894768238067627,"{'hidden_units': [13, 26, 13], 'learning_rate': 0.01, 'dropout': 0.2, 'epochs': 25000}",0.030497591942548752
+tf dnn classifier,Heroin,loss,0.5782639980316162,"{'hidden_units': [13, 26, 13], 'learning_rate': 0.1, 'dropout': 0.2, 'epochs': 25000}",0.030497591942548752
